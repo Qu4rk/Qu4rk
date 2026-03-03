@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Qu4rk
 - 👀 I’m interested in artificial intelligence.
-- 🌱 I’m currently learning Java and coding in general, I only know some VB.
+- 🌱 I’m currently learning React and Kubernetes, I know Python, Flutter, C#.
 - 💞️ I’m looking to collaborate on nothing in particular right now.
 - 📫 How to reach me -> Email me :)
 
