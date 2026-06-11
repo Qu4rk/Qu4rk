@@ -3,6 +3,7 @@
 - 🌱 I’m currently learning React and Kubernetes, I know Python, Flutter, C#.
 - 💞️ I’m looking to collaborate on nothing in particular right now.
 - 📫 How to reach me -> Email me :)
+- 🔓 The Effortless build repo is public.
 
 <!---
 Qu4rk/Qu4rk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
