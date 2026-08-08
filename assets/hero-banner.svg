@@ -53,6 +53,12 @@
 
     <!-- Repos -->
     <text x="492" y="11" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="14" fill="#7d8590">7 public repos</text>
+
+    <!-- Separator -->
+    <text x="610" y="11" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="14" fill="#30363d">|</text>
+
+    <!-- Contributions -->
+    <text x="632" y="11" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="14" fill="#7d8590">15 contributions / year</text>
   </g>
 
   <!-- Accent line at bottom -->

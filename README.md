@@ -22,18 +22,9 @@ My focus is on **AI-powered products**: ambient classroom intelligence with Deep
 
 ---
 
-## GitHub Stats
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=Qu4rk&show_icons=true&hide_border=true&count_private=true&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=e6edf3&icon_color=58a6ff&border_color=21262d" width="100%" alt="GitHub Stats">
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com?user=Qu4rk&theme=dark&background=0d1117&border=21262d&stroke=21262d&ring=58a6ff&fire=58a6ff&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=58a6ff&dates=7d8590" width="100%" alt="GitHub Streak">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./assets/stats.svg" width="100%" alt="GitHub Stats: 7 repositories, 1 star, 15 contributions, 2 achievements">
+</p>
 
 ---
 

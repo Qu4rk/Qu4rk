@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-labelledby="stats-title stats-desc">
+  <title id="stats-title">GitHub Stats</title>
+  <desc id="stats-desc">GitHub statistics for Qu4rk: repos, stars, contributions, and achievements.</desc>
+
+  <defs>
+    <linearGradient id="bg-grad-stats" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="200" rx="12" fill="url(#bg-grad-stats)" />
+
+  <!-- Section label -->
+  <text x="64" y="42" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="14" fill="#7d8590" letter-spacing="2">// GITHUB STATS</text>
+
+  <!-- Stats grid: 4 columns -->
+  <g transform="translate(64, 68)">
+    <!-- Repositories -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="260" height="100" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1" />
+      <text x="20" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="12" fill="#7d8590" letter-spacing="1">REPOSITORIES</text>
+      <text x="20" y="72" font-family="-apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="36" font-weight="700" fill="#e6edf3">7</text>
+      <rect x="20" y="82" width="80" height="3" rx="1.5" fill="#58a6ff" opacity="0.6" />
+    </g>
+
+    <!-- Stars -->
+    <g transform="translate(280, 0)">
+      <rect x="0" y="0" width="260" height="100" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1" />
+      <text x="20" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="12" fill="#7d8590" letter-spacing="1">STARS EARNED</text>
+      <text x="20" y="72" font-family="-apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="36" font-weight="700" fill="#e6edf3">1</text>
+      <rect x="20" y="82" width="20" height="3" rx="1.5" fill="#d29922" opacity="0.6" />
+    </g>
+
+    <!-- Contributions -->
+    <g transform="translate(560, 0)">
+      <rect x="0" y="0" width="260" height="100" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1" />
+      <text x="20" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="12" fill="#7d8590" letter-spacing="1">CONTRIBUTIONS / YEAR</text>
+      <text x="20" y="72" font-family="-apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="36" font-weight="700" fill="#e6edf3">15</text>
+      <rect x="20" y="82" width="60" height="3" rx="1.5" fill="#3fb950" opacity="0.6" />
+    </g>
+
+    <!-- Achievements -->
+    <g transform="translate(840, 0)">
+      <rect x="0" y="0" width="260" height="100" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1" />
+      <text x="20" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="12" fill="#7d8590" letter-spacing="1">ACHIEVEMENTS</text>
+      <text x="20" y="72" font-family="-apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="36" font-weight="700" fill="#e6edf3">2</text>
+      <rect x="20" y="82" width="40" height="3" rx="1.5" fill="#bc8cff" opacity="0.6" />
+    </g>
+  </g>
+</svg>
