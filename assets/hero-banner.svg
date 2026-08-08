@@ -1,148 +1,96 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="100%" height="380">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">Qu4rk — Full-Stack Developer &amp; AI Engineer</title>
+  <desc id="hero-desc">Developer identity card for Qu4rk, based in Limassol, Cyprus, specializing in AI, speech recognition, and full-stack web development.</desc>
+
   <defs>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#000000" stroke-width="1" opacity="0.07" />
-    </pattern>
+    <linearGradient id="accent-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="0" />
+      <stop offset="15%" stop-color="#58a6ff" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="1" />
+      <stop offset="85%" stop-color="#58a6ff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
   </defs>
 
-  <rect width="1000" height="380" fill="#f8fafc" />
-  <rect width="1000" height="380" fill="url(#grid)" />
+  <rect width="1200" height="340" rx="12" fill="url(#bg-grad)" />
 
-  <rect x="20" y="20" width="960" height="340" fill="#000000" />
-  <rect x="12" y="12" width="960" height="340" fill="#ffffff" stroke="#000000" stroke-width="4" />
+  <!-- Category label -->
+  <text x="64" y="62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="16" fill="#7d8590" letter-spacing="2">// DEVELOPER PROFILE</text>
 
-  <!-- Title bar -->
-  <rect x="12" y="12" width="960" height="44" fill="#facc15" stroke="#000000" stroke-width="4" />
-  <circle cx="38" cy="34" r="8" fill="#ff66a3" stroke="#000000" stroke-width="2.5" />
-  <circle cx="60" cy="34" r="8" fill="#1ac2ff" stroke="#000000" stroke-width="2.5" />
-  <circle cx="82" cy="34" r="8" fill="#4ade80" stroke="#000000" stroke-width="2.5" />
-  <text x="108" y="39" font-family="'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace" font-size="13" font-weight="700" fill="#000000">QU4RK // FULL-STACK DEVELOPER &amp; AI ENGINEER</text>
+  <!-- Name -->
+  <text x="60" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="64" font-weight="700" fill="#e6edf3" letter-spacing="-2">Qu4rk</text>
 
-  <!-- Live status badge -->
-  <g transform="translate(780, 20)">
-    <rect x="3" y="3" width="180" height="28" fill="#000000" />
-    <rect x="0" y="0" width="180" height="28" fill="#4ade80" stroke="#000000" stroke-width="2.5" />
-    <circle cx="18" cy="14" r="6" fill="#000000">
-      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" />
+  <!-- Role with cursor -->
+  <text x="64" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="22" fill="#58a6ff" font-weight="500">Full-Stack Developer &amp; AI Engineer</text>
+  <rect x="478" y="156" width="2" height="20" fill="#58a6ff" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" dur="1.2s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Bio line -->
+  <text x="64" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="17" fill="#7d8590">Building AI-powered products — speech recognition, luxury web, mobile apps.</text>
+
+  <!-- Metadata row -->
+  <g transform="translate(64, 248)">
+    <!-- Location -->
+    <circle cx="6" cy="6" r="4" fill="#3fb950" />
+    <text x="20" y="11" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="14" fill="#7d8590">Limassol, Cyprus</text>
+
+    <!-- Separator -->
+    <text x="200" y="11" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="14" fill="#30363d">|</text>
+
+    <!-- Availability -->
+    <circle cx="222" cy="6" r="4" fill="#58a6ff">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite" />
     </circle>
-    <circle cx="18" cy="14" r="4" fill="#ffffff" />
-    <text x="34" y="19" font-family="'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace" font-size="11" font-weight="700" fill="#000000">AVAILABLE FOR WORK</text>
+    <text x="236" y="11" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="14" fill="#7d8590">Available for collaboration</text>
+
+    <!-- Separator -->
+    <text x="470" y="11" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="14" fill="#30363d">|</text>
+
+    <!-- Repos -->
+    <text x="492" y="11" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="14" fill="#7d8590">7 public repos</text>
   </g>
 
-  <!-- Left: Qu4rk wordmark with pulsing glow -->
-  <g transform="translate(60, 95)">
-    <rect x="6" y="6" width="430" height="120" fill="#000000" opacity="0.12">
-      <animate attributeName="opacity" values="0.12;0.25;0.12" dur="2.5s" repeatCount="indefinite" />
-    </rect>
-    <rect x="0" y="0" width="430" height="120" fill="#1ac2ff" stroke="#000000" stroke-width="4" />
-    <text x="215" y="78" font-family="'SF Pro Display', system-ui, -apple-system, sans-serif" font-size="58" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="-2">Qu4rk</text>
+  <!-- Accent line at bottom -->
+  <rect x="0" y="332" width="1200" height="2" fill="url(#accent-line)" />
 
-    <!-- Animated equalizer bars inside the wordmark tile -->
-    <g transform="translate(370, 45)">
-      <rect x="0" y="20" width="8" height="20" fill="#000000">
-        <animate attributeName="height" values="20;5;28;12;20" dur="1.1s" repeatCount="indefinite" />
-        <animate attributeName="y" values="20;35;12;28;20" dur="1.1s" repeatCount="indefinite" />
-      </rect>
-      <rect x="14" y="10" width="8" height="30" fill="#000000">
-        <animate attributeName="height" values="30;12;8;22;30" dur="0.9s" repeatCount="indefinite" />
-        <animate attributeName="y" values="10;28;32;18;10" dur="0.9s" repeatCount="indefinite" />
-      </rect>
-      <rect x="28" y="15" width="8" height="25" fill="#000000">
-        <animate attributeName="height" values="25;8;32;14;25" dur="1.3s" repeatCount="indefinite" />
-        <animate attributeName="y" values="15;32;8;26;15" dur="1.3s" repeatCount="indefinite" />
-      </rect>
-      <rect x="42" y="5" width="8" height="35" fill="#000000">
-        <animate attributeName="height" values="35;18;10;28;35" dur="1.0s" repeatCount="indefinite" />
-        <animate attributeName="y" values="5;22;30;12;5" dur="1.0s" repeatCount="indefinite" />
-      </rect>
-    </g>
+  <!-- Subtle grid pattern top-right -->
+  <g transform="translate(960, 50)" opacity="0.04">
+    <rect x="0" y="0" width="3" height="3" fill="#58a6ff" />
+    <rect x="20" y="0" width="3" height="3" fill="#58a6ff" />
+    <rect x="40" y="0" width="3" height="3" fill="#58a6ff" />
+    <rect x="60" y="0" width="3" height="3" fill="#58a6ff" />
+    <rect x="80" y="0" width="3" height="3" fill="#58a6ff" />
+    <rect x="100" y="0" width="3" height="3" fill="#58a6ff" />
+    <rect x="120" y="0" width="3" height="3" fill="#58a6ff" />
+    <rect x="140" y="0" width="3" height="3" fill="#58a6ff" />
+    <rect x="0" y="20" width="3" height="3" fill="#58a6ff" />
+    <rect x="20" y="20" width="3" height="3" fill="#58a6ff" />
+    <rect x="40" y="20" width="3" height="3" fill="#58a6ff" />
+    <rect x="60" y="20" width="3" height="3" fill="#58a6ff" />
+    <rect x="80" y="20" width="3" height="3" fill="#58a6ff" />
+    <rect x="100" y="20" width="3" height="3" fill="#58a6ff" />
+    <rect x="120" y="20" width="3" height="3" fill="#58a6ff" />
+    <rect x="140" y="20" width="3" height="3" fill="#58a6ff" />
+    <rect x="0" y="40" width="3" height="3" fill="#58a6ff" />
+    <rect x="20" y="40" width="3" height="3" fill="#58a6ff" />
+    <rect x="40" y="40" width="3" height="3" fill="#58a6ff" />
+    <rect x="60" y="40" width="3" height="3" fill="#58a6ff" />
+    <rect x="80" y="40" width="3" height="3" fill="#58a6ff" />
+    <rect x="100" y="40" width="3" height="3" fill="#58a6ff" />
+    <rect x="120" y="40" width="3" height="3" fill="#58a6ff" />
+    <rect x="140" y="40" width="3" height="3" fill="#58a6ff" />
+    <rect x="0" y="60" width="3" height="3" fill="#58a6ff" />
+    <rect x="20" y="60" width="3" height="3" fill="#58a6ff" />
+    <rect x="40" y="60" width="3" height="3" fill="#58a6ff" />
+    <rect x="60" y="60" width="3" height="3" fill="#58a6ff" />
+    <rect x="80" y="60" width="3" height="3" fill="#58a6ff" />
+    <rect x="100" y="60" width="3" height="3" fill="#58a6ff" />
+    <rect x="120" y="60" width="3" height="3" fill="#58a6ff" />
+    <rect x="140" y="60" width="3" height="3" fill="#58a6ff" />
   </g>
-
-  <!-- Right: Role cycling badge -->
-  <g transform="translate(520, 95)">
-    <rect x="6" y="6" width="420" height="120" fill="#000000" />
-    <rect x="0" y="0" width="420" height="120" fill="#ff66a3" stroke="#000000" stroke-width="4" />
-
-    <text x="210" y="40" font-family="'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace" font-size="12" font-weight="700" fill="#000000" text-anchor="middle" opacity="0.7">// CURRENT FOCUS</text>
-
-    <!-- Cycling role text -->
-    <g>
-      <text x="210" y="80" font-family="'SF Pro Display', system-ui, -apple-system, sans-serif" font-size="26" font-weight="900" fill="#000000" text-anchor="middle">
-        <animate attributeName="opacity" values="1;1;0;0;0;0;1" dur="12s" repeatCount="indefinite" />
-        AI &amp; Speech Recognition
-      </text>
-      <text x="210" y="80" font-family="'SF Pro Display', system-ui, -apple-system, sans-serif" font-size="26" font-weight="900" fill="#000000" text-anchor="middle" opacity="0">
-        <animate attributeName="opacity" values="0;0;1;1;0;0;0" dur="12s" repeatCount="indefinite" />
-        Full-Stack Web Development
-      </text>
-      <text x="210" y="80" font-family="'SF Pro Display', system-ui, -apple-system, sans-serif" font-size="26" font-weight="900" fill="#000000" text-anchor="middle" opacity="0">
-        <animate attributeName="opacity" values="0;0;0;0;1;1;0" dur="12s" repeatCount="indefinite" />
-        Flutter &amp; Mobile Apps
-      </text>
-    </g>
-
-    <!-- Typing cursor blink -->
-    <rect x="340" y="62" width="3" height="24" fill="#000000">
-      <animate attributeName="opacity" values="1;0;1;0;1;0;1;0" dur="1s" repeatCount="indefinite" />
-    </rect>
-  </g>
-
-  <!-- Bottom left: Location card -->
-  <g transform="translate(60, 240)">
-    <rect x="6" y="6" width="280" height="72" fill="#000000" />
-    <rect x="0" y="0" width="280" height="72" fill="#c084fc" stroke="#000000" stroke-width="4" />
-
-    <!-- Animated location pin -->
-    <g transform="translate(28, 36)">
-      <circle cx="0" cy="0" r="12" fill="#000000" opacity="0.2">
-        <animate attributeName="r" values="12;20;12" dur="2s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.2;0;0.2" dur="2s" repeatCount="indefinite" />
-      </circle>
-      <path d="M 0 -10 C -7 -10 -10 -5 -10 0 C -10 6 0 14 0 14 C 0 14 10 6 10 0 C 10 -5 7 -10 0 -10 Z" fill="#000000" stroke="#000000" stroke-width="1.5" />
-      <circle cx="0" cy="0" r="3.5" fill="#c084fc" />
-    </g>
-
-    <text x="54" y="32" font-family="'SF Pro Display', system-ui, -apple-system, sans-serif" font-size="18" font-weight="900" fill="#000000">Limassol, Cyprus</text>
-    <text x="54" y="52" font-family="'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace" font-size="11" font-weight="700" fill="#000000" opacity="0.7">35.1856 degrees N, 33.3823 degrees E</text>
-  </g>
-
-  <!-- Bottom center: GitHub stats mini -->
-  <g transform="translate(370, 240)">
-    <rect x="6" y="6" width="260" height="72" fill="#000000" />
-    <rect x="0" y="0" width="260" height="72" fill="#4ade80" stroke="#000000" stroke-width="4" />
-    <text x="130" y="28" font-family="'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace" font-size="11" font-weight="700" fill="#000000" text-anchor="middle" opacity="0.7">// GITHUB</text>
-    <text x="50" y="56" font-family="'SF Pro Display', system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#000000" text-anchor="middle">7</text>
-    <text x="50" y="68" font-family="'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace" font-size="9" font-weight="700" fill="#000000" text-anchor="middle">REPOS</text>
-    <text x="130" y="56" font-family="'SF Pro Display', system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#000000" text-anchor="middle">1</text>
-    <text x="130" y="68" font-family="'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace" font-size="9" font-weight="700" fill="#000000" text-anchor="middle">STAR</text>
-    <text x="210" y="56" font-family="'SF Pro Display', system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#000000" text-anchor="middle">2</text>
-    <text x="210" y="68" font-family="'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace" font-size="9" font-weight="700" fill="#000000" text-anchor="middle">ACHIEVEMENTS</text>
-  </g>
-
-  <!-- Bottom right: Scrolling marquee -->
-  <g transform="translate(660, 240)">
-    <rect x="6" y="6" width="280" height="72" fill="#000000" />
-    <rect x="0" y="0" width="280" height="72" fill="#facc15" stroke="#000000" stroke-width="4" />
-    <text x="140" y="28" font-family="'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace" font-size="11" font-weight="700" fill="#000000" text-anchor="middle" opacity="0.7">// STACK</text>
-    <g>
-      <text x="0" y="56" font-family="'SF Pro Display', system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#000000">
-        <animate attributeName="x" values="280;-200" dur="8s" repeatCount="indefinite" />
-        TypeScript &middot; Next.js &middot; Flutter &middot; Python &middot; AI &middot; C#
-      </text>
-    </g>
-  </g>
-
-  <!-- Decorative animated corner accents -->
-  <circle cx="12" cy="12" r="0" fill="#ff66a3">
-    <animate attributeName="r" values="0;3;0" dur="1.5s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="972" cy="12" r="0" fill="#1ac2ff">
-    <animate attributeName="r" values="0;3;0" dur="1.8s" repeatCount="indefinite" begin="0.5s" />
-  </circle>
-  <circle cx="12" cy="352" r="0" fill="#4ade80">
-    <animate attributeName="r" values="0;3;0" dur="2s" repeatCount="indefinite" begin="1s" />
-  </circle>
-  <circle cx="972" cy="352" r="0" fill="#c084fc">
-    <animate attributeName="r" values="0;3;0" dur="1.7s" repeatCount="indefinite" begin="0.3s" />
-  </circle>
 </svg>
