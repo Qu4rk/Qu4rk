@@ -1,0 +1,11 @@
+{
+  "name": "qu4rk-profile",
+  "version": "2.0.0",
+  "description": "GitHub Profile configuration & Cybercore SVG asset pipeline for Qu4rk",
+  "scripts": {
+    "build:assets": "node scripts/build-assets.js"
+  },
+  "dependencies": {
+    "opentype.js": "^2.0.0"
+  }
+}
