@@ -1,14 +1,15 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="Qu4rk — Elias Liasides. AI systems, expressive interfaces, and the engineering between them. Based in Limassol, Cyprus.">
+  <img src="./assets/readme/hero.webp" width="100%" alt="Qu4rk — Elias Liasides, the developer behind QuarkMade. Crafting digital experiences that command attention. Full-stack and AI systems engineering in Limassol, Cyprus.">
 </p>
 
 <p align="center">
+  <a href="https://qu4rk.github.io/QuarkMade/">QuarkMade</a> &nbsp; / &nbsp;
   <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
   <a href="#the-toolkit">The toolkit</a> &nbsp; / &nbsp;
   <a href="mailto:liasides.elias@gmail.com">Get in touch</a>
 </p>
 
-I'm **Elias**, a full-stack developer and AI systems engineer in **Limassol, Cyprus**. I build tools that make AI more useful, voice-driven products for real classrooms, and web experiences with a sense of place.
+I'm **Elias**, the developer behind **[QuarkMade](https://qu4rk.github.io/QuarkMade/)**. I work across full-stack software and AI systems from **Limassol, Cyprus**. I build tools that make AI more useful, voice-driven products for real classrooms, and web experiences with a sense of place.
 
 I like working on both sides of a product: how it behaves underneath, and how it feels in someone's hands.
 
@@ -34,14 +35,14 @@ I like working on both sides of a product: how it behaves underneath, and how it
 
 **A digital home for a Mediterranean residence.** A coastal property experience built around cinematic typography, scroll choreography, and the character of Cyprus.
 
-<a href="https://lumina-living-six.vercel.app"><img src="./assets/readme/lumina.webp" width="100%" alt="Lumina Living's live website, featuring the Limassol coastline and large editorial typography."></a>
+<a href="https://www.lumina-living.net/"><img src="./assets/readme/lumina.webp" width="100%" alt="Lumina Living's live website, featuring the Limassol coastline and large editorial typography."></a>
 
-`Next.js` `React` `GSAP` &nbsp; **[Visit the experience](https://lumina-living-six.vercel.app)** · [Source](https://github.com/Qu4rk/LuminaLiving)
+`Next.js` `React` `GSAP` &nbsp; **[Visit the experience](https://www.lumina-living.net/)** · [Source](https://github.com/Qu4rk/LuminaLiving)
 
 ### Also on my workbench
 
 - **[BuildEffortless](https://github.com/Qu4rk/build_effortless)** — A Flutter app for planning PC builds, comparing components, and saving configurations locally. `Flutter` `Dart` `SQLite`
-- **[Chronotomi Wealth](https://github.com/Qu4rk/chronotomi-wealth)** — A luxury timepiece and private advisory web project. `JavaScript` `HTML` `CSS`
+- **[Chronotomi Wealth](https://github.com/Qu4rk/chronotomi-wealth)** — A luxury timepiece and private advisory web project. [Live site](https://www.chronotomi.com/). `JavaScript` `HTML` `CSS`
 
 ## The toolkit
 
@@ -54,9 +55,10 @@ I like working on both sides of a product: how it behaves underneath, and how it
 
 <br>
 
-<a href="mailto:liasides.elias@gmail.com"><img src="./assets/readme/signoff.svg" width="100%" alt="Have something worth building? Contact Elias at liasides.elias@gmail.com."></a>
+<a href="mailto:liasides.elias@gmail.com"><img src="./assets/readme/signoff.svg" width="100%" alt="Let’s build something exceptional. QuarkMade — contact Elias at liasides.elias@gmail.com."></a>
 
 <p align="center">
   <a href="mailto:liasides.elias@gmail.com">liasides.elias@gmail.com</a> &nbsp; / &nbsp;
-  <a href="https://github.com/Qu4rk?tab=repositories">Browse my repositories</a>
+  <a href="https://qu4rk.github.io/QuarkMade/">Explore QuarkMade</a> &nbsp; / &nbsp;
+  <a href="https://github.com/Qu4rk?tab=repositories">Repositories</a>
 </p>

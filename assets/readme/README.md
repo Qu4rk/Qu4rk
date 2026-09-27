@@ -1,9 +1,17 @@
-# Profile artwork
+# QuarkMade profile artwork
 
-Run `npm install` and `npm run build:assets` from the repository root to regenerate `hero.svg`, `cachesnipe.svg`, and `signoff.svg`. The generator uses the existing Chillax font, converts display lettering into paths, and leaves small annotations as system-font text. No remote fonts, scripts, animation, or external image dependencies are embedded in the SVGs.
+The README visual identity follows [QuarkMade](https://qu4rk.github.io/QuarkMade/): twilight imagery, a near-black violet background, gold and lavender accents, rounded panels, and Satoshi / Chillax typography.
 
-- `talli.webp`: cropped and compressed from the public Talli repository's `assets/readme/dashboard.png`. The original is an actual application screenshot with fictional demo names and scores. Source: https://github.com/Qu4rk/Talli/blob/main/assets/readme/dashboard.png
-- `lumina.webp`: screenshot of https://lumina-living-six.vercel.app captured on 27 September 2026 and compressed as WebP.
+Run `npm install` and `npm run build:assets` from the repository root. The generator produces the published `hero.webp`, a self-contained static `hero.svg` fallback, `cachesnipe.svg`, `signoff.svg`, and the editable composition `source/hero-layout.svg`. Sharp composites the original website artwork with outlined vector typography. The published assets do not require external fonts or remote images.
+
+## Sources
+
+- `source/hero-sunset.webp` and `source/quark-logo.webp`: existing QuarkMade website assets, copied from its public `assets/branding/` directory on 27 September 2026. These are original site assets, not newly generated images.
+- `source/hero-layout.svg`: editable composition; its image references are relative to this source directory. Publish `hero.webp`, not this source file.
+- `talli.webp`: cropped from the public Talli repository's `assets/readme/dashboard.png`, an actual application screenshot with fictional demo names and scores. [Original](https://github.com/Qu4rk/Talli/blob/main/assets/readme/dashboard.png).
+- `lumina.webp`: actual Lumina Living website screenshot captured on 27 September 2026.
 - `cachesnipe.svg`: conceptual prefix-reuse diagram, not measured telemetry or a cache-hit guarantee.
 
-Palette: paper `#F2F0E9`, ink `#171816`, signal orange `#FF6337`. Display type: Chillax Medium. Body content remains native GitHub Markdown.
+## Theme tokens
+
+Background `#0B0A12`; white `#FFFFFF`; primary violet `#4442DB`; gold `#D4AF37`; lavender `#A594F9`. Colors come from the QuarkMade source and hero styling. Chillax Medium is the existing repository font. Satoshi Regular is the website's body and headline companion. Display lettering is outlined so the appearance is stable on GitHub. Long-form text and links remain native Markdown.
