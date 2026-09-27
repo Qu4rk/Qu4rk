@@ -1,93 +1,62 @@
 <p align="center">
-  <img src="./assets/hero-banner.svg" width="100%" alt="Qu4rk — Full-Stack Developer &amp; AI Systems Engineer based in Limassol, Cyprus">
+  <img src="./assets/readme/hero.svg" width="100%" alt="Qu4rk — Elias Liasides. AI systems, expressive interfaces, and the engineering between them. Based in Limassol, Cyprus.">
 </p>
 
 <p align="center">
-  <a href="#-active-systems--production-architecture"><b>Systems &amp; Architecture</b></a> •
-  <a href="#-capabilities--runtime-matrix"><b>Capabilities Matrix</b></a> •
-  <a href="#-telemetry--metrics"><b>Telemetry</b></a> •
-  <a href="#-communications-uplink"><b>Uplink</b></a>
+  <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
+  <a href="#the-toolkit">The toolkit</a> &nbsp; / &nbsp;
+  <a href="mailto:liasides.elias@gmail.com">Get in touch</a>
 </p>
 
----
+I'm **Elias**, a full-stack developer and AI systems engineer in **Limassol, Cyprus**. I build tools that make AI more useful, voice-driven products for real classrooms, and web experiences with a sense of place.
 
-### `//` TRANSMISSION OVERVIEW
+I like working on both sides of a product: how it behaves underneath, and how it feels in someone's hands.
 
-I'm **Qu4rk** (Elias Liasides) — a full-stack developer and AI systems engineer based in **Limassol, Cyprus** `[34.7071° N, 33.0226° E]`. I design and build production software spanning real-time speech intelligence, high-performance LLM cache optimization, luxury cinematic web experiences, and cross-platform mobile architecture.
+## Selected work
 
-#### Key Engineering Focus
-- ⚡ **Ambient Speech & Real-Time Intelligence**: Production classroom STT with Deepgram, streaming Silero VAD, and sub-second latency audio processing in Next.js 14.
-- 🎯 **LLM Cost & Prefix Optimization**: Engineered [CacheSnipe](https://github.com/Qu4rk/CacheSnipe), an OpenCode plugin locking prompt prefixes to unlock 50x–120x cheaper cache-read pricing on DeepSeek models.
-- 💎 **Luxury Cinematic Web Architecture**: High-fidelity interactive digital experiences choreographed with GSAP motion engines and micro-interactions.
-- 📱 **Mobile & Systems Development**: Architecture-driven Flutter applications with local SQLite offline storage, clean layered patterns, and Kubernetes deployment workflows.
+<a href="https://github.com/Qu4rk/CacheSnipe"><img src="./assets/readme/cachesnipe.svg" width="100%" alt="CacheSnipe: an OpenCode plugin for DeepSeek prompt caching. A conceptual diagram shows a stable repeated prefix as new content grows across turns."></a>
 
----
+**[CacheSnipe](https://github.com/Qu4rk/CacheSnipe) · Making repeated context count.** An OpenCode plugin that stabilizes DeepSeek prompt prefixes and tracks cache hits, prefix breaks, and token costs. Built for understanding what gets reused and why a cache breaks.
 
-### `//` CAPABILITIES & RUNTIME MATRIX
+`TypeScript` `OpenCode` `DeepSeek`
 
-<p align="center">
-  <img src="./assets/tech-stack.svg" width="100%" alt="Tech Stack: TypeScript, Python, Dart, C#, SQL, Next.js 15, React 19, Flutter, GSAP, Tailwind, Deepgram STT, Silero VAD, Kubernetes">
-</p>
+### Talli
 
-| Discipline | Core Technologies | Focus &amp; Implementations |
-| :--- | :--- | :--- |
-| **Languages &amp; Runtimes** | `TypeScript`, `Python`, `Dart`, `C#`, `SQL`, `JavaScript` | Strict typing, async concurrency, stream processing |
-| **Frontend &amp; Motion** | `Next.js 15`, `React 19`, `GSAP`, `TailwindCSS` | Cinematic animations, SSR/Edge streaming, performance optimization |
-| **Mobile Engineering** | `Flutter`, `Dart`, `SQLite`, `Provider/Riverpod` | Offline-first storage, hardware optimization, responsive layouts |
-| **AI, Audio &amp; Infra** | `Deepgram STT`, `Silero VAD`, `Kubernetes`, `Docker`, `OpenCode` | Ambient voice capture, prompt prefix caching, container orchestration |
+**Classroom points, in the words you already say.** A voice-powered classroom copilot for primary school teachers in Cyprus. It turns spoken Greek praise and corrections into student points, with uncertain cues sent for review.
 
----
+<a href="https://github.com/Qu4rk/Talli"><img src="./assets/readme/talli.webp" width="100%" alt="Talli's actual classroom dashboard: class selection, voice-session launch, and lesson configuration. Screenshot uses fictional demo data."></a>
 
-### `//` ACTIVE SYSTEMS &amp; PRODUCTION ARCHITECTURE
+<sub>Actual application screenshot, cropped to the session dashboard. Fictional demo names and scores.</sub>
 
-<p align="center">
-  <img src="./assets/projects.svg" width="100%" alt="Featured Projects: Talli, CacheSnipe, LuminaLiving, chronotomi-wealth, build_effortless">
-</p>
+`Next.js` `TypeScript` `Deepgram` `Silero VAD` &nbsp; **[Explore Talli](https://github.com/Qu4rk/Talli)**
 
-#### [01 // Talli](https://github.com/Qu4rk/Talli) `[ LIVE // PRIMARY EDUCATION ]`
-- **Architecture**: Real-time Greek ambient speech recognition & AI point tracking engine designed for Cyprus Primary Education (Δημοτικό Α'-ΣΤ').
-- **Stack**: `Next.js 14` • `Deepgram STT` • `Silero VAD` • `TypeScript` • `Neobrutalism UI`
-- **Repository**: [github.com/Qu4rk/Talli](https://github.com/Qu4rk/Talli)
+### Lumina Living
 
-#### [02 // CacheSnipe](https://github.com/Qu4rk/CacheSnipe) `[ NEW // OPEN-SOURCE TOOL ]`
-- **Architecture**: OpenCode plugin that locks the DeepSeek prompt prefix to guarantee constant cache hits, delivering **50x–120x cheaper** cache-read pricing.
-- **Stack**: `TypeScript` • `DeepSeek API` • `Prompt Cache Locking` • `OpenCode Tooling`
-- **Repository**: [github.com/Qu4rk/CacheSnipe](https://github.com/Qu4rk/CacheSnipe)
+**A digital home for a Mediterranean residence.** A coastal property experience built around cinematic typography, scroll choreography, and the character of Cyprus.
 
-#### [03 // LuminaLiving](https://lumina-living-six.vercel.app) `[ LIVE // LUXURY WEB ]`
-- **Architecture**: Exclusive coastal residence showcase featuring multi-stage GSAP scroll-driven animations, parallax viewports, and bespoke architectural galleries.
-- **Stack**: `Next.js` • `React` • `GSAP Motion` • `TypeScript` • `TailwindCSS`
-- **Deployment**: [lumina-living-six.vercel.app](https://lumina-living-six.vercel.app)
+<a href="https://lumina-living-six.vercel.app"><img src="./assets/readme/lumina.webp" width="100%" alt="Lumina Living's live website, featuring the Limassol coastline and large editorial typography."></a>
 
-#### [04 // chronotomi-wealth](https://chronotomi-wealth.vercel.app) `[ LIVE // WEALTH PLATFORM ]`
-- **Architecture**: Private wealth management platform featuring high-value timepiece inventory trackers, investment advisory modules, and secured logistics workflows.
-- **Stack**: `HTML5` • `Modern JavaScript` • `Vercel Edge Platform`
-- **Deployment**: [chronotomi-wealth.vercel.app](https://chronotomi-wealth.vercel.app)
+`Next.js` `React` `GSAP` &nbsp; **[Visit the experience](https://lumina-living-six.vercel.app)** · [Source](https://github.com/Qu4rk/LuminaLiving)
 
-#### [05 // build_effortless](https://github.com/Qu4rk/build_effortless) `[ REPO // FLUTTER APP ★ 1 ]`
-- **Architecture**: AI-driven mobile application engineered for planning, comparing, and benchmarking custom PC component builds with offline SQLite storage.
-- **Stack**: `Flutter` • `Dart` • `SQLite` • `AI Optimization Engine`
-- **Repository**: [github.com/Qu4rk/build_effortless](https://github.com/Qu4rk/build_effortless)
+### Also on my workbench
 
----
+- **[BuildEffortless](https://github.com/Qu4rk/build_effortless)** — A Flutter app for planning PC builds, comparing components, and saving configurations locally. `Flutter` `Dart` `SQLite`
+- **[Chronotomi Wealth](https://github.com/Qu4rk/chronotomi-wealth)** — A luxury timepiece and private advisory web project. `JavaScript` `HTML` `CSS`
 
-### `//` TELEMETRY &amp; METRICS
+## The toolkit
+
+| Area | Tools I work with |
+| :--- | :--- |
+| Interfaces & motion | TypeScript, React, Next.js, GSAP, Tailwind CSS |
+| AI & voice | Python, DeepSeek, Deepgram, Silero VAD |
+| Mobile & data | Flutter, Dart, SQLite, SQL |
+| Systems | C#, Docker, Kubernetes |
+
+<br>
+
+<a href="mailto:liasides.elias@gmail.com"><img src="./assets/readme/signoff.svg" width="100%" alt="Have something worth building? Contact Elias at liasides.elias@gmail.com."></a>
 
 <p align="center">
-  <img src="./assets/stats.svg" width="100%" alt="GitHub Telemetry: 9 public repositories, 120x cache efficiency multiplier, 15+ annual contributions, 3 live web deployments">
-</p>
-
----
-
-### `//` COMMUNICATIONS UPLINK
-
-<p align="center">
-  <img src="./assets/connect.svg" width="100%" alt="Communications Uplink: Email, GitHub, Lumina Living, Chronotomi Wealth">
-</p>
-
-<p align="center">
-  <a href="mailto:liasides.elias@gmail.com"><b>Direct Dispatch: liasides.elias@gmail.com</b></a> •
-  <a href="https://github.com/Qu4rk"><b>GitHub: @Qu4rk</b></a> •
-  <a href="https://lumina-living-six.vercel.app"><b>Lumina Living</b></a> •
-  <a href="https://chronotomi-wealth.vercel.app"><b>Chronotomi Wealth</b></a>
+  <a href="mailto:liasides.elias@gmail.com">liasides.elias@gmail.com</a> &nbsp; / &nbsp;
+  <a href="https://github.com/Qu4rk?tab=repositories">Browse my repositories</a>
 </p>
