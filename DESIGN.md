@@ -5,8 +5,8 @@ colors:
   notebook-purple: "#8957e5"
 typography:
   display:
-    fontFamily: "Satoshi"
-    fontWeight: 400
+    fontFamily: "Chillax"
+    fontWeight: 500
     fontSize: "68px"
 components:
   nameplate:
@@ -33,7 +33,7 @@ Reserve notebook purple for Elias’s name. GitHub supplies the page background,
 
 ## Typography
 
-The nameplate uses outlined Satoshi Regular. Its display size is measured in the SVG’s native coordinate space and scales with the image. Use GitHub’s body type for prose, level-two headings for sections and linked level-three headings for featured projects.
+The nameplate uses outlined Chillax Medium. Its display size is measured in the SVG’s native coordinate space and scales with the image. Use GitHub’s body type for prose, level-two headings for sections and linked level-three headings for featured projects.
 
 ## Layout
 
