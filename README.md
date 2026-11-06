@@ -15,14 +15,6 @@ I like working on both sides of a product: how it behaves underneath, and how it
 
 ## Selected work
 
-### Chronotomi Wealth
-
-My flagship website for a luxury watch sourcing and private advisory business in Cyprus. Visitors can explore the collection, learn about the sourcing process, and make a private inquiry.
-
-<a href="https://www.chronotomi.com/"><img src="./assets/readme/chronotomi.webp" width="100%" alt="Chronotomi Wealth's live homepage with its watch movement background, collection navigation, and private sourcing introduction."></a>
-
-`JavaScript` `HTML` `CSS` &nbsp; **[Visit Chronotomi Wealth](https://www.chronotomi.com/)** · [Source](https://github.com/Qu4rk/chronotomi-wealth)
-
 ### CacheSnipe
 
 <a href="https://github.com/Qu4rk/CacheSnipe"><img src="./assets/readme/cachesnipe.svg" width="100%" alt="CacheSnipe: an OpenCode plugin for DeepSeek prompt caching. A conceptual diagram shows a stable repeated prefix as new content grows across turns."></a>
@@ -40,6 +32,14 @@ My flagship website for a luxury watch sourcing and private advisory business in
 <sub>Actual application screenshot, cropped to the session dashboard. Fictional demo names and scores.</sub>
 
 `Next.js` `TypeScript` `Deepgram` `Silero VAD` &nbsp; **[Explore Talli](https://github.com/Qu4rk/Talli)**
+
+### Chronotomi Wealth
+
+My flagship website for a luxury watch sourcing and private advisory business in Cyprus. Visitors can explore the collection, learn about the sourcing process, and make a private inquiry.
+
+<a href="https://www.chronotomi.com/"><img src="./assets/readme/chronotomi.webp" width="100%" alt="Chronotomi Wealth's live homepage with its watch movement background, collection navigation, and private sourcing introduction."></a>
+
+`JavaScript` `HTML` `CSS` &nbsp; **[Visit Chronotomi Wealth](https://www.chronotomi.com/)** · [Source](https://github.com/Qu4rk/chronotomi-wealth)
 
 ### Lumina Living
 
