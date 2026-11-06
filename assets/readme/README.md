@@ -1,4 +1,12 @@
-# QuarkMade profile artwork
+# Profile artwork
+
+## Current notebook design
+
+The profile uses a compact purple nameplate and native GitHub Markdown. Generate `nameplate.svg` with `node scripts/build-notebook.js` from the repository root after installing its existing dependencies. The generator outlines the local Satoshi Regular font and uses purple `#8957e5` on a transparent background, so GitHub needs no remote font or custom CSS.
+
+`talli.webp` is the only embedded raster: a real application screenshot with fictional demonstration data. Its original source is recorded below. No generated artwork was added for the notebook redesign.
+
+## Previous artwork (retained, no longer embedded)
 
 The README visual identity follows [QuarkMade](https://qu4rk.github.io/QuarkMade/): twilight imagery, a near-black violet background, gold and lavender accents, rounded panels, and Satoshi / Chillax typography.
 

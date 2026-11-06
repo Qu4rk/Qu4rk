@@ -1,64 +1,44 @@
-<p align="center">
-  <img src="./assets/readme/hero.webp" width="100%" alt="Qu4rk — Elias Liasides, the developer behind QuarkMade. Crafting digital experiences that command attention. Full-stack and AI systems engineering in Limassol, Cyprus.">
-</p>
+<!--
+THESIS: A developer notebook grounded in Elias's projects and real screenshots.
+OWN-WORLD: Native GitHub reading surface, purple nameplate, plain prose and generous section breaks.
+STORY: Meet Elias, understand two projects, browse other work, get in touch.
+FIRST VIEWPORT: Compact nameplate, introduction, contact links, and the first project; no promotional hero.
+FORM: Developer notebook, grounded candidate 1, user-selected; seed 80180cbe. Static Markdown; project links are the interaction.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+-->
 
-<p align="center">
-  <a href="https://qu4rk.github.io/QuarkMade/">QuarkMade</a> &nbsp; / &nbsp;
-  <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
-  <a href="#the-toolkit">The toolkit</a> &nbsp; / &nbsp;
-  <a href="mailto:liasides.elias@gmail.com">Get in touch</a>
-</p>
+<h1><img src="./assets/readme/nameplate.svg" width="480" alt="Elias Liasides"></h1>
 
-I'm **Elias**, the developer behind **[QuarkMade](https://qu4rk.github.io/QuarkMade/)**. I work across full-stack software and AI systems from **Limassol, Cyprus**. I build tools that make AI more useful, voice-driven products for real classrooms, and web experiences with a sense of place.
+I'm **Qu4rk**. I build AI tools, web applications, and the occasional mobile app. My projects range from prompt caching to a classroom tool that understands spoken Greek.
 
-I like working on both sides of a product: how it behaves underneath, and how it feels in someone's hands.
+[Portfolio](https://qu4rk.github.io/QuarkMade/) · [Email](mailto:liasides.elias@gmail.com) · [All repositories](https://github.com/Qu4rk?tab=repositories)
 
-## Selected work
+## A couple of projects
 
-<a href="https://github.com/Qu4rk/CacheSnipe"><img src="./assets/readme/cachesnipe.svg" width="100%" alt="CacheSnipe: an OpenCode plugin for DeepSeek prompt caching. A conceptual diagram shows a stable repeated prefix as new content grows across turns."></a>
+### [Talli](https://github.com/Qu4rk/Talli)
 
-**[CacheSnipe](https://github.com/Qu4rk/CacheSnipe) · Making repeated context count.** An OpenCode plugin that stabilizes DeepSeek prompt prefixes and tracks cache hits, prefix breaks, and token costs. Built for understanding what gets reused and why a cache breaks.
+A classroom tool for primary school teachers in Cyprus. It turns spoken Greek praise and corrections into student points, and sends uncertain cues to the teacher for review.
 
-`TypeScript` `OpenCode` `DeepSeek`
+<a href="https://github.com/Qu4rk/Talli"><img src="./assets/readme/talli.webp" width="100%" alt="Talli classroom dashboard with class selection and voice-session controls. The screenshot uses fictional student data."></a>
 
-### Talli
+<sub>Application screenshot with fictional student data. <a href="./assets/readme/talli.webp">View full size</a>.</sub>
 
-**Classroom points, in the words you already say.** A voice-powered classroom copilot for primary school teachers in Cyprus. It turns spoken Greek praise and corrections into student points, with uncertain cues sent for review.
+Built with TypeScript, Next.js, Deepgram, and Silero VAD.
 
-<a href="https://github.com/Qu4rk/Talli"><img src="./assets/readme/talli.webp" width="100%" alt="Talli's actual classroom dashboard: class selection, voice-session launch, and lesson configuration. Screenshot uses fictional demo data."></a>
+### [CacheSnipe](https://github.com/Qu4rk/CacheSnipe)
 
-<sub>Actual application screenshot, cropped to the session dashboard. Fictional demo names and scores.</sub>
+An OpenCode plugin for DeepSeek prompt caching. It keeps repeated prompt prefixes stable and tracks cache hits, prefix breaks, and token costs, so you can see what gets reused and what changes between turns.
 
-`Next.js` `TypeScript` `Deepgram` `Silero VAD` &nbsp; **[Explore Talli](https://github.com/Qu4rk/Talli)**
+Written in TypeScript. [Read the code and setup instructions](https://github.com/Qu4rk/CacheSnipe).
 
-### Lumina Living
+## Other work
 
-**A digital home for a Mediterranean residence.** A coastal property experience built around cinematic typography, scroll choreography, and the character of Cyprus.
+- **[Lumina Living](https://www.lumina-living.net/)** — A website for a coastal property in Cyprus, built with Next.js, React, and GSAP. [Source](https://github.com/Qu4rk/LuminaLiving).
+- **[BuildEffortless](https://github.com/Qu4rk/build_effortless)** — A Flutter app for planning PC builds, comparing components, and saving configurations in SQLite.
+- **[Chronotomi Wealth](https://www.chronotomi.com/)** — A website for timepieces and private advisory. [Source](https://github.com/Qu4rk/chronotomi-wealth).
 
-<a href="https://www.lumina-living.net/"><img src="./assets/readme/lumina.webp" width="100%" alt="Lumina Living's live website, featuring the Limassol coastline and large editorial typography."></a>
+## Tools I use
 
-`Next.js` `React` `GSAP` &nbsp; **[Visit the experience](https://www.lumina-living.net/)** · [Source](https://github.com/Qu4rk/LuminaLiving)
+TypeScript, React, and Next.js for web projects; Python for AI work; Flutter and Dart for mobile apps. I also work with SQL, C#, Docker, and Kubernetes.
 
-### Also on my workbench
-
-- **[BuildEffortless](https://github.com/Qu4rk/build_effortless)** — A Flutter app for planning PC builds, comparing components, and saving configurations locally. `Flutter` `Dart` `SQLite`
-- **[Chronotomi Wealth](https://github.com/Qu4rk/chronotomi-wealth)** — A luxury timepiece and private advisory web project. [Live site](https://www.chronotomi.com/). `JavaScript` `HTML` `CSS`
-
-## The toolkit
-
-| Area | Tools I work with |
-| :--- | :--- |
-| Interfaces & motion | TypeScript, React, Next.js, GSAP, Tailwind CSS |
-| AI & voice | Python, DeepSeek, Deepgram, Silero VAD |
-| Mobile & data | Flutter, Dart, SQLite, SQL |
-| Systems | C#, Docker, Kubernetes |
-
-<br>
-
-<a href="mailto:liasides.elias@gmail.com"><img src="./assets/readme/signoff.svg" width="100%" alt="Let’s build something exceptional. QuarkMade — contact Elias at liasides.elias@gmail.com."></a>
-
-<p align="center">
-  <a href="mailto:liasides.elias@gmail.com">liasides.elias@gmail.com</a> &nbsp; / &nbsp;
-  <a href="https://qu4rk.github.io/QuarkMade/">Explore QuarkMade</a> &nbsp; / &nbsp;
-  <a href="https://github.com/Qu4rk?tab=repositories">Repositories</a>
-</p>
+You can find more of my work at **[QuarkMade](https://qu4rk.github.io/QuarkMade/)**, or reach me at **[liasides.elias@gmail.com](mailto:liasides.elias@gmail.com)**.
