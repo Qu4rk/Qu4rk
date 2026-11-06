@@ -23,3 +23,5 @@ Run `npm install` and `npm run build:assets` from the repository root. The gener
 ## Theme tokens
 
 Background `#0B0A12`; white `#FFFFFF`; primary violet `#4442DB`; gold `#D4AF37`; lavender `#A594F9`. Colors come from the QuarkMade source and hero styling. Chillax Medium is the existing repository font. Satoshi Regular is the website's body and headline companion. Display lettering is outlined so the appearance is stable on GitHub. Long-form text and links remain native Markdown.
+
+- `chronotomi.webp`: actual homepage screenshot captured from https://www.chronotomi.com/ on 6 November 2026 at a 1440 × 1000 viewport, encoded as WebP.

@@ -15,6 +15,16 @@ I like working on both sides of a product: how it behaves underneath, and how it
 
 ## Selected work
 
+### Chronotomi Wealth
+
+My flagship website for a luxury watch sourcing and private advisory business in Cyprus. Visitors can explore the collection, learn about the sourcing process, and make a private inquiry.
+
+<a href="https://www.chronotomi.com/"><img src="./assets/readme/chronotomi.webp" width="100%" alt="Chronotomi Wealth's live homepage with its watch movement background, collection navigation, and private sourcing introduction."></a>
+
+`JavaScript` `HTML` `CSS` &nbsp; **[Visit Chronotomi Wealth](https://www.chronotomi.com/)** · [Source](https://github.com/Qu4rk/chronotomi-wealth)
+
+### CacheSnipe
+
 <a href="https://github.com/Qu4rk/CacheSnipe"><img src="./assets/readme/cachesnipe.svg" width="100%" alt="CacheSnipe: an OpenCode plugin for DeepSeek prompt caching. A conceptual diagram shows a stable repeated prefix as new content grows across turns."></a>
 
 **[CacheSnipe](https://github.com/Qu4rk/CacheSnipe) · Making repeated context count.** An OpenCode plugin that stabilizes DeepSeek prompt prefixes and tracks cache hits, prefix breaks, and token costs. Built for understanding what gets reused and why a cache breaks.
@@ -42,7 +52,6 @@ I like working on both sides of a product: how it behaves underneath, and how it
 ### Also on my workbench
 
 - **[BuildEffortless](https://github.com/Qu4rk/build_effortless)** — A Flutter app for planning PC builds, comparing components, and saving configurations locally. `Flutter` `Dart` `SQLite`
-- **[Chronotomi Wealth](https://github.com/Qu4rk/chronotomi-wealth)** — A luxury timepiece and private advisory web project. [Live site](https://www.chronotomi.com/). `JavaScript` `HTML` `CSS`
 
 ## The toolkit
 
