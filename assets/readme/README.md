@@ -1,14 +1,14 @@
 # Profile artwork
 
-## Current notebook design
+## Current profile header
 
 The profile uses a compact purple nameplate and native GitHub Markdown. Generate `nameplate.svg` with `node scripts/build-notebook.js` from the repository root after installing its existing dependencies. The generator outlines the local Satoshi Regular font and uses purple `#8957e5` on a transparent background, so GitHub needs no remote font or custom CSS.
 
-`talli.webp` is the only embedded raster: a real application screenshot with fictional demonstration data. Its original source is recorded below. No generated artwork was added for the notebook redesign.
+The restored README also embeds the existing Talli and Lumina screenshots, CacheSnipe diagram, and contact footer. Their sources are recorded below.
 
-## Previous artwork (retained, no longer embedded)
+## Existing QuarkMade artwork and sources
 
-The README visual identity follows [QuarkMade](https://qu4rk.github.io/QuarkMade/): twilight imagery, a near-black violet background, gold and lavender accents, rounded panels, and Satoshi / Chillax typography.
+The project showcase and footer artwork follow [QuarkMade](https://qu4rk.github.io/QuarkMade/): twilight imagery, a near-black violet background, gold and lavender accents, rounded panels, and Satoshi / Chillax typography.
 
 Run `npm install` and `npm run build:assets` from the repository root. The generator produces the published `hero.webp`, a self-contained static `hero.svg` fallback, `cachesnipe.svg`, `signoff.svg`, and the editable composition `source/hero-layout.svg`. Sharp composites the original website artwork with outlined vector typography. The published assets do not require external fonts or remote images.
 

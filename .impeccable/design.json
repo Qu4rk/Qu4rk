@@ -41,8 +41,8 @@
     }
   ],
   "narrative": {
-    "northStar": "Developer notebook",
-    "overview": "Elias introduces himself in the first person and lets readers inspect what he builds. A purple signature opens the page. The rest reads like a GitHub README, with project names, implementation details and links to the code.",
+    "northStar": "QuarkMade profile",
+    "overview": "The previous QuarkMade profile structure is restored, with a compact purple nameplate replacing its opening artwork. Selected projects, real screenshots, the toolkit table, and the illustrated footer follow.",
     "keyCharacteristics": [
       "Purple lettering on a transparent background.",
       "Native Markdown headings, paragraphs, lists and links.",

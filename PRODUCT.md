@@ -24,4 +24,4 @@ The current README describes CacheSnipe, Talli, Lumina Living, BuildEffortless, 
 
 ## Confirmed Direction
 
-The user selected a developer notebook and requested purple. Use a compact purple nameplate, native GitHub Markdown, straightforward descriptions, and real project evidence. Developer collaborators are the working audience hypothesis; client acquisition is not assumed.
+The user asked to restore the previous QuarkMade README and replace its opening artwork, which looked AI generated. Use the compact purple nameplate above the restored project showcases, toolkit table, and footer.

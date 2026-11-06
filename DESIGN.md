@@ -1,6 +1,6 @@
 ---
 name: Qu4rk
-description: Elias Liasides’s GitHub developer notebook
+description: Elias Liasides’s GitHub profile
 colors:
   notebook-purple: "#8957e5"
 typography:
@@ -18,7 +18,7 @@ components:
 
 ## Overview
 
-**Creative North Star: "Developer notebook"**
+**Creative North Star: "QuarkMade profile"**
 
 Elias introduces himself in the first person and lets readers inspect what he builds. A purple signature opens the page. The rest reads like a GitHub README, with project names, implementation details and links to the code.
 
@@ -37,13 +37,13 @@ The nameplate uses outlined Satoshi Regular. Its display size is measured in the
 
 ## Layout
 
-Follow one left-aligned column. The introduction and contact links sit directly under the nameplate. Featured projects get their own paragraphs. Other work fits into a bulleted list. Let links wrap on narrow screens and scale images within the reading column.
+Center the compact purple nameplate and navigation. Follow with the original introduction, selected project showcases, additional work, toolkit table, and illustrated contact footer. Let links wrap on narrow screens and scale images within the reading column.
 
 ## Components
 
-- **Nameplate.** Place the transparent SVG inside the top-level heading. Use “Elias Liasides” as the image alternative.
-- **Project entry.** Link the project name to its repository. Describe what the software does before listing its tools. CacheSnipe uses a text link to its code and setup instructions.
-- **Application screenshot.** Talli’s full-column image links to its repository. The caption identifies the fictional student data and links to the full-size image.
+- **Nameplate.** Center the transparent SVG in the opening paragraph. Use “Elias Liasides” as the image alternative.
+- **Project entry.** Link the project name to its repository. Describe what the software does before listing its tools. CacheSnipe includes its existing conceptual prefix diagram.
+- **Application screenshot.** Talli’s full-column image links to its repository. The caption identifies the fictional student data. Lumina Living also retains its real website screenshot.
 
 ## Do's and Don'ts
 
