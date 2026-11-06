@@ -2,7 +2,7 @@
 
 ## Current profile header
 
-The profile uses a compact purple nameplate and native GitHub Markdown. Generate `nameplate.svg` with `node scripts/build-notebook.js` from the repository root after installing its existing dependencies. The generator outlines the local Chillax Medium font and uses purple `#8957e5` on a transparent background, so GitHub needs no remote font or custom CSS.
+The profile uses a compact purple nameplate and native GitHub Markdown. Generate `nameplate-chillax-medium.svg` with `node scripts/build-notebook.js` from the repository root after installing its existing dependencies. The generator outlines the local Chillax Medium font and uses purple `#8957e5` on a transparent background, so GitHub needs no remote font or custom CSS.
 
 The restored README also embeds the existing Talli and Lumina screenshots, CacheSnipe diagram, and contact footer. Their sources are recorded below.
 

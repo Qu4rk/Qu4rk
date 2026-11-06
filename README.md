@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/nameplate.svg" width="480" alt="Elias Liasides — Qu4rk">
+  <img src="./assets/readme/nameplate-chillax-medium.svg" width="480" alt="Elias Liasides — Qu4rk">
 </p>
 
 <p align="center">

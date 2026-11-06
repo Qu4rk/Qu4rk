@@ -19,4 +19,4 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="480" height="88" vie
   <desc id="desc">Elias Liasides, known on GitHub as Qu4rk.</desc>
   <path d="${lettering}" fill="#8957e5"/>
 </svg>\n`;
-fs.writeFileSync(path.join(root, 'assets/readme/nameplate.svg'), svg);
+fs.writeFileSync(path.join(root, 'assets/readme/nameplate-chillax-medium.svg'), svg);
